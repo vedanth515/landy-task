@@ -1,0 +1,27 @@
+#sub-footer-main{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#F1F2F3;
+  margin-top:100px;
+  margin-bottom:50px;
+  gap:470px;
+}
+#sub-footer-left img{
+    width: 100px;
+}
+#sub-footer-right {
+    display: flex;
+    gap:70px;
+}
+#sub-footer-right img{
+    width:25px;
+}
+#sub-footer-right button{
+    padding: 10px;
+    width:150px;
+    color: white;
+    background-color:#202020;
+    border-radius: 12px;
+    text-decoration: none;
+}

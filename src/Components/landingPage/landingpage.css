@@ -1,0 +1,59 @@
+#landmain{
+    display: flex;
+    margin-top:190px;
+    width:100%;
+    justify-content: center;
+    gap:10px;
+}
+#land-left{
+    display: flex;
+    flex-direction: column;
+    width:38%;
+    row-gap:20px;
+}
+#land-left h1{
+    color:#2E186A ;
+}
+#land-left p{
+    color: #2E186A;
+}
+
+#btns{
+    display: flex;
+    gap:30px;
+}
+#btns #btn1{
+    background-color: #2E186A;
+    border: none;
+    color: white;
+    border-radius:5px;
+}
+#btns #btn1:hover{
+    background-color: sandybrown;
+}
+#btns #btn2{
+    background-color:white;
+    color: #2E186A;
+    border-radius:5px;
+    border:2px solid lightgray;
+}
+#btns #btn2:hover{
+    background-color: sandybrown;
+    color:white;
+}
+#btns button{
+    text-decoration: none;
+    width:150px;
+    height:48px;
+}
+
+
+#land-right{
+    display: flex;
+}
+
+#land-right img{
+    width:500px;
+    padding-left:70px;
+    
+}

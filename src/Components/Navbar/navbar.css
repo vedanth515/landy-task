@@ -1,0 +1,40 @@
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+}
+#nav-left{
+    display: flex;
+    align-items: center;
+}
+#nav-left img{
+    width:120px;
+}
+
+#nav-right{
+    display: flex;
+    gap:70px;
+    align-items: center;
+}
+
+#nav-right p:hover{
+    color: sandybrown;
+}
+#nav-right p{
+    font-size:18px;
+}
+
+#nav-right #btn{
+    width:180px;
+    height:48px;
+    background-color:#2E186A;
+    color: white;
+    border:none;
+    font-size: 18px;
+    border-radius:5px;
+}
+
+#nav-right #btn:hover{
+    background-color:sandybrown;
+}

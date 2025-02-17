@@ -1,0 +1,31 @@
+
+
+#redayMain{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 250px;
+    gap:30px;
+}
+
+#reday-left{
+    width:35%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#reday-left h1{
+    color: #2E186A;
+}
+#reday-left p{
+    color: #2E186A;
+}
+
+#reday-right{
+    margin-left: 50px;
+}
+#reday-right img{
+    width:500px;
+}

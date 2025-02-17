@@ -1,0 +1,20 @@
+
+
+/* #line{
+  opacity:0.3;
+} */
+
+/* #cards{
+  display: flex;
+  flex-wrap: wrap;
+} */
+/* body{
+  background-color:#EEEEEE;
+
+} */
+#mainDiv{
+  /* display: grid;
+  grid-template-columns: repeat(3,1fr); */
+  width:100%;
+}
+

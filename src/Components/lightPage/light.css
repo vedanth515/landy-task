@@ -1,0 +1,42 @@
+
+#lightmain{
+    display: flex;
+    margin-top: 160px;
+    width: 100%;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+}
+#land-left{
+    width:500px;
+}
+#land-right h1{
+    color: #2E186A ;
+}
+#land-right p{
+    color: #2E186A;
+}
+#land-right{
+    display: flex;
+    flex-direction: column;
+    width:38%;
+}
+
+#land-bottom-left #img1{
+    width:50px;
+}
+#land-bottom-right #img2{
+    width:50px;
+}
+#land-bottom{
+    display:flex;
+    gap:20px;
+    width:100%;
+    margin-top: 15px;
+}
+#land-bottom-left{
+    width:50%;
+}
+#land-bottom-right{
+    width:40%;
+}
