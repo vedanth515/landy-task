@@ -6,11 +6,11 @@ function Props(cardInfo){
     console.log(cardInfo);
     
     return(
-            <div id="cards">
+            <div id="card">
                 <img src={cardInfo.imgurl} width="300px" height="300px"/>
-                <p>{cardInfo.products.title}</p>
-                <p>{cardInfo.products.price}</p>
-                <p>{cardInfo.products.category}</p>
+                <p>Title:({cardInfo.title})</p>
+                <p>$:{cardInfo.price}</p>
+                <p>Category:({cardInfo.category})</p>
                 <button>{cardInfo.cartBtn}</button>
                 <button>{cardInfo.buyNow}</button>
             </div>
